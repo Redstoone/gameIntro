@@ -144,8 +144,8 @@ p.img img {
 .footer .name {
   text-align: center;
   margin-bottom: 0;
-  line-height: 78px;
   font-size: 16px;
+  margin: 19px auto 10px;
 }
 
 .footer .qrcode-img {
@@ -156,4 +156,10 @@ p.img img {
 
 .footer .qrcode-img img {
   width: 100%;
+}
+
+.footer .gzh {
+  font-size: 12px;
+  text-align: center;
+  margin-bottom: 0;
 }
