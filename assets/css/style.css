@@ -2,41 +2,14 @@
   background-repeat: no-repeat;
 }
 
-body,
-div,
-dl,
-dt,
-dd,
-ul,
-ol,
-li,
-li2,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-pre,
-code,
-form,
-fieldset,
-legend,
-input,
-button,
-textarea,
-p,
-blockquote,
-th,
-td {
+body, div, dl, dt, dd, ul, ol, li, li2, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td {
   color: #000000;
   margin: 0;
   padding: 0;
   font-family: Arial, seri-sans;
 }
 
-fieldset,
-img {
+fieldset, img {
   border: 0 none;
 }
 
@@ -62,9 +35,7 @@ ul.ul2 {
   padding-bottom: 5px;
 }
 
-a,
-a:visited,
-ins {
+a, a:visited, ins {
   text-decoration: none;
 }
 
@@ -90,7 +61,7 @@ p {
 }
 
 #biaoti {
-  margin-bottom: 20px;
+  margin: 20px auto;
   line-height: 28px;
 }
 
@@ -135,9 +106,54 @@ h4 {
   top: 0;
 }
 
-p.img{
+p.img {
   text-align: center;
 }
-p.img img{
+
+p.img img {
+  width: 100%;
+}
+
+.footer {
+  position: relative;
+  height: 150px;
+  padding-left: 150px;
+  width: 300px;
+  margin: 20px auto;
+  box-sizing: border-box;
+  border-top: 1px solid #A8D2E0;
+  padding-top: 20px;
+}
+
+.footer .logo-wrap {
+  width: 150px;
+  left: 0;
+  top: 20px;
+  position: absolute;
+}
+
+.footer .logo-img {
+  text-align: center;
+  border-bottom: 1px solid #A8D2E0;
+}
+
+.footer .logo-img img {
+  width: 66px;
+}
+
+.footer .name {
+  text-align: center;
+  margin-bottom: 0;
+  line-height: 78px;
+  font-size: 16px;
+}
+
+.footer .qrcode-img {
+  width: 150px;
+  border-left: 1px solid #A8D2E0;
+  height: 150px;
+}
+
+.footer .qrcode-img img {
   width: 100%;
 }
